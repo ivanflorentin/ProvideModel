@@ -1,0 +1,24 @@
+{
+  "name": "provideModel",
+  "version": "1.0.0",
+  "description": "Model provider",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Florentin <ivan@sinergetica.com>",
+  "license": "ISC",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/ivanflorentin/ProvideModel"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.7",
+    "webpack": "^1.13.1"
+  },
+  "babel": {
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}
