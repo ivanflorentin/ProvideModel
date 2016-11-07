@@ -2,7 +2,7 @@
 # Status: Work In Progress!!
 
 
-A model based application provider generator using provide and react-toolbox
+A model based application provider generator using [react-redux-provide](https://github.com/loggur/react-redux-provide).
 
 For an example on the model format and boilerplate take a look at:  https://github.com/ivanflorentin/mercadito_campesino
 
