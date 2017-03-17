@@ -1,4 +1,4 @@
-import uuid from 'node-uuid'
+import uuid from 'uuid/v4'
 
 export default function (modelDef) {
   const {modelName,
@@ -195,7 +195,7 @@ export default function (modelDef) {
       if (action.model.uuid) {
 	id = action.model.uuid
 	next[id] = Object.assign({}, action.model, {uuid: id})
-      } else { id = uuid.v4() }
+      } else { id = uuid() }
       next[id] = Object.assign({}, action.model, {uuid: id})
       return next
     }
