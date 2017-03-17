@@ -153,7 +153,7 @@ export default function (modelDef) {
 	      next[`${fieldName}Error`].push(validator.message)
 	    }
 	  }
-	  if (next.isValidm && next[`${fieldName}Error`]) {
+	  if (next.isValid && next[`${fieldName}Error`]) {
 	    delete next[`${fieldName}Error`]
 	  }
 	}

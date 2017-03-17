@@ -1,6 +1,6 @@
 {
   "name": "provideModel",
-  "version": "1.0.0",
+  "version": "1.0.0a",
   "description": "Model provider",
   "main": "src/index.js",
   "scripts": {
